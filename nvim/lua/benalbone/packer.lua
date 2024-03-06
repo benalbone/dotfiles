@@ -36,7 +36,7 @@ return require('packer').startup(function(use)
     -- Nvim-Tree File Explorer
     use('nvim-tree/nvim-tree.lua')
     use('nvim-tree/nvim-web-devicons')
-    
+
     use('xiyaowong/transparent.nvim')
 
     use {
