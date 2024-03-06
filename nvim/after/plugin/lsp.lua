@@ -11,7 +11,17 @@ end)
 -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = {'tsserver', 'rust_analyzer'},
+    ensure_installed = {
+        'astro',
+        'html',
+        'css_variables',
+        'cssls',
+        'cssmodules_ls',
+        'tsserver',
+        'jsonls',
+        'lua_ls',
+        'perlls',
+        'tailwindcss' },
     handlers = {
         lsp_zero.default_setup,
         lua_ls = function()
@@ -36,11 +46,5 @@ cmp.setup({
         {name = 'luasnip', keyword_length = 2},
         {name = 'buffer', keyword_length = 3},
     },
-    formatting = lsp_zero.cmp_format({details = false}),
-    mapping = cmp.mapping.preset.insert({
-        ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
-        ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
-        ['<C-y>'] = cmp.mapping.confirm({ select = true }),
-        ['<C-Space>'] = cmp.mapping.complete(),
-    }),
+    formatting = lsp_zero.cmp_format({details = false})
 })
