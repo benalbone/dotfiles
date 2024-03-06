@@ -51,3 +51,8 @@ In this readme, I have also included some notes of things to add to my .zshrc eg
 Add alias for the dir path that you create the Login.pl script
 
 _this can be obtained from the wiki_
+
+### Future
+
+May end up adding terminal customisations -- //eg// Alacritty -- and other such things to this repo down the line. 
+Depends what I want to keep when moving to a new device.
