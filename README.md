@@ -38,6 +38,10 @@ brew install nvim
 
 Clone this repo into .config location
 
+```
+$ git clone git@github.com:benalbone/dotfiles.git
+```
+
 ### Additions
 
 In this readme, I have also included some notes of things to add to my .zshrc eg// alias' and scripts etc.
