@@ -11,13 +11,12 @@ require("nvim-tree").setup({
     view = {
         width = 30,
         relativenumber = true,
-        
     },
     renderer = {
         group_empty = true,
     },
     filters = {
-        dotfiles = true,
+        dotfiles = false,
         custom = {
             "node_modules/.*",
         },
