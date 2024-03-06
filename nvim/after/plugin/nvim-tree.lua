@@ -32,6 +32,10 @@ require("nvim-tree").setup({
         },
     },
 })
-if vim.fn.argc(-1) == 0 then
-    vim.cmd("NvimTreeFocus")
-end
+
+-- the following will open nvim-tree when nvim opens without 
+-- a file being specified
+
+-- if vim.fn.argc(-1) == 0 then
+--    vim.cmd("NvimTreeFocus")
+-- end

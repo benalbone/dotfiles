@@ -14,13 +14,11 @@ require('mason-lspconfig').setup({
     ensure_installed = {
         'astro',
         'html',
-        'css_variables',
         'cssls',
         'cssmodules_ls',
         'tsserver',
         'jsonls',
         'lua_ls',
-        'perlls',
         'tailwindcss' },
     handlers = {
         lsp_zero.default_setup,
