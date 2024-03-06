@@ -54,5 +54,5 @@ _this can be obtained from the wiki_
 
 ### Future
 
-May end up adding terminal customisations ==_eg: Alacritty_== and other such things to this repo down the line. 
+May end up adding terminal customisations _eg: Alacritty_ and other such things to this repo down the line. 
 Depends what I want to keep when moving to a new device.
