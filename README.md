@@ -4,7 +4,7 @@ This directory contains my dotfiles mainly for my nvim setup.
 
 ## Requirements
 
-### Brew _if on mac_
+### Brew *_if on mac_
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
