@@ -30,3 +30,6 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 
+-- disables welcome screen
+
+vim.opt.shortmess = "I"
