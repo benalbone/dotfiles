@@ -1,4 +1,3 @@
--- OR setup with some options
 require("nvim-tree").setup({
     actions = {
         open_file = {
@@ -9,8 +8,14 @@ require("nvim-tree").setup({
         sorter = "case_sensitive",
     },
     view = {
-        width = 30,
         relativenumber = true,
+        side = "right",
+        float = {
+            open_win_config = {
+                border = "rounded",
+                relative = "editor",
+            },
+        },
     },
     renderer = {
         group_empty = true,

@@ -26,10 +26,9 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+--vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 
 -- disables welcome screen
-
 vim.opt.shortmess = "I"
